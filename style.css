@@ -1,0 +1,39 @@
+/*
+Theme Name: Custom-theme
+Text Domain: HassanTawfic
+Version: 1.0.0
+Description: Good looking theme
+Tags: cool
+Author: HassanTawfic
+Author URI:https://github.com/HassanTawfic
+*/
+
+html{
+    margin-top: 0 !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.section-header{
+    display: block;
+    height: 100px;
+    width: 100%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.section-header h1{
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.d-flex{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
