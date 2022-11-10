@@ -7,3 +7,14 @@
     <?php wp_head() ?>
 </head>
 <body>
+
+    <?php
+        wp_nav_menu(
+            array(
+                'menu' => 'Main menu',
+                'container' => '',
+                'theme_location' => 'Main menu',
+                'items_wrap' => '<ul id="navbar" class="navbar navbar-expand-lg bg-light">%3$s</ul>'
+            )
+        )
+    ?>
